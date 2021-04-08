@@ -18,7 +18,7 @@ const about = () => {
         <div className={styles.aboutText}>
           <h1 className={styles.h1}>Hello and Welcome! </h1>          
           <h3 className={styles.h2, styles.bodyText}>
-        Before anything else, a quick note on my name. I usually introduce myself as 'Sachit, like Watch-it', so most people know me by that that. My birth-name is actually pronounced a bit differently: 
+        Before anything else, a quick note on my name. I usually introduce myself as 'Sachit, like Watch-it', so most people know me by that that. My birth name is actually pronounced a bit differently: 
         the 'a' is pronounced 'uh' and the 't' is pronounced 'th' (S-uh-chith). It's not entirely intuitive, but <a className={styles.aboutLink} href="https://www.youtube.com/watch?v=F__SBto-uYg&ab_channel=GreatVideos-GVCMH" target="_blank">follows the same pattern as many other East Asian/Indian names</a>. I have been recently been going by Sach (pronounced 'Such').
 </h3>
 

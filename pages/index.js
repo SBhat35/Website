@@ -30,10 +30,8 @@ export default function Home() {
       <Head>
         <title>Sachit Bhat</title>
         <link rel="icon" href="/favSB.png" />
+        <meta name="description" content="Personal Website for Sachit Bhat" />
       </Head>
-      
-
-
       <main className={styles.main}>
         <Link href="/about">
           <a className={styles.topLink}>
@@ -41,8 +39,8 @@ export default function Home() {
           </a>
         </Link>
         <hr className={styles.headerLine}/>
-            <img src="/prof.png" alt="Sachit Profile" className={styles.logo} />
-        <h1 className={styles.h1}>{NAME.name} </h1>
+            <img src="/prof.png" alt="Sachit Bhat Profile" className={styles.logo} />
+        <h1 className={styles.h1}>Sachit Bhat </h1>
         <hr className={styles.line1}/>
         <h2 className={styles.h2}>{NAME.subText}</h2>
         <hr className={styles.headerLine}/>
@@ -75,16 +73,11 @@ export default function Home() {
        
       </main>
 
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer> */}
+      <footer className={styles.footer}>
+        <h2 className={styles.h2}>&copy; 2021 Sachit Bhat 
+
+        </h2>
+      </footer>
     </div>
   )
 }
