@@ -24,12 +24,15 @@ export default function Home() {
     'FaProductHunt': FaProductHunt
   }
   const data = LINKS;
+  
   return (
     <div className={styles.container}>
       <Head>
         <title>Sachit Bhat</title>
         <link rel="icon" href="/favSB.png" />
       </Head>
+      
+
 
       <main className={styles.main}>
         <Link href="/about">
