@@ -201,7 +201,7 @@
   flex-direction: column;
   letter-spacing: 0.1em;
   line-height: 35px;
-  margin: var(--xs) var(--xl) var(--xs) var(--xl)
+  margin: var(--xs) var(--md) var(--xs) var(--md)
 }
 .bodyText{
   color: var(--secondary-grey)
@@ -269,6 +269,9 @@
   }
   .buttonList {
     max-width: 400px;
+  }
+  .aboutText{
+    margin: var(--xs) var(--xl) var(--xs) var(--xl)
   }
 }
 

@@ -37,10 +37,10 @@ In the past, I've worked as an engineer at <a className={styles.aboutLink} href=
 </h3>
 <h3 className={styles.h2, styles.bodyText}>
 
-Outside of tech, I thoroughly enjoy reading, writing, walking, board games, HIIT, and self-tracking. I challenged myself to write a <a className={styles.aboutLink} href="http://newsletter.sachitbhat.com/" target="_blank">newsletter</a> for a year during quarantine, both to track my own progress but also incentive curiosity and learning. More recently, I created a <a className={styles.aboutLink} href="https://coda.io/@sachit-bhat/sb" target="_blank">page</a> to store articles and podcasts as well as a quick blurb of my thoughts. I crave spice, and have addiction to Cholula, eggs, and avocado (I have a cholula bottle graveyard and eat 3 eggs a day). My recent focus has been web development and prototyping. I used
+Outside of tech, I thoroughly enjoy reading, writing, walking, board games, HIIT, and self-tracking. I challenged myself to write a <a className={styles.aboutLink} href="http://newsletter.sachitbhat.com/" target="_blank">newsletter</a> for a year during quarantine, both to track my own progress but also incentive curiosity and learning. More recently, I created a <a className={styles.aboutLink} href="https://coda.io/@sachit-bhat/sb" target="_blank">page</a> to store articles and podcasts as well as a quick blurb of my thoughts. I crave spice, and am slightly addicted to Cholula, eggs, and avocado (This has been my daily lunch and weekend brunch since going remote). My recent focus has been web development and prototyping. I used
 Next.js to build this site and am continuing to experiment with <a className={styles.aboutLink} href="https://nextjs.org/Next" target="_blank">Next</a> and React.
 
-If you'd like to connect, you can message me <a href="mailto:sachitbhat.sb@gmail.com">here</a>  or connect with me on <a className={styles.aboutLink} href="https://www.linkedin.com/in/sachitbhat/" target="_blank">LinkedIn</a>. Else, hope you enjoyed reading🙂    
+If you'd like to connect, you can message me <a href="mailto:sachitbhat.sb@gmail.com" className={styles.aboutLink} target="_blank">here</a>  or connect with me on <a className={styles.aboutLink} href="https://www.linkedin.com/in/sachitbhat/" target="_blank">LinkedIn</a>. Else, hope you enjoyed reading🙂    
           
           
           </h3>
