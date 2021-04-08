@@ -1,0 +1,16 @@
+:root {
+  /*COLORS*/
+  --primary-black: #474747;
+  --primary-grey: #cccccc;
+  --secondary-grey: #505050;
+
+  /*SPACING*/
+  --base: 8px;
+  --xs: var(--base);
+  --sm: calc(var(--base) * 2);
+  --spc: calc(var(--base) * 3);
+  --md: calc(var(--base) * 4);
+  --lg: calc(var(--base) * 6);
+  --xl: calc(var(--base) * 8);
+  --xxl: calc(var(--base) * 13);
+}

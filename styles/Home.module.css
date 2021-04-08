@@ -1,6 +1,4 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,9 +108,170 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
+
+.h1 {
+  color: var(--primary-black);
+  margin: var(--sm);
 }
+
+.h2 {
+  color: var(--primary-grey);
+  font-size: var(--sm);
+  margin: var(--sm);
+}
+
+.line1 {
+  border: 0;
+  clear: both;
+  height: 1px;
+  display: flex;
+  justify-content: center;
+  width: var(--xxl);
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.topLink{
+  text-decoration: underline
+}
+
+.logo {
+  max-width: 200px;
+  /* max-height: 150px; */
+  border-radius: 100%;
+  margin: var(--lg) 0px var(--md) 0px;
+}
+
+.button1 {
+  margin: var(--sm);
+  padding: var(--sm);
+  border: 1px solid black;
+  border-radius: 100%;
+}
+.button1:hover {
+  margin: var(--sm);
+  padding: var(--sm);
+  background-color: var(--primary-grey);
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.headerLine {
+  border: 0;
+  clear: both;
+  height: 1px;
+  display: flex;
+  margin-top: var(--md);
+  background-color: var(--primary-black);
+  justify-content: center;
+  width: 300px;
+}
+.buttonList {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin: var(--sm);
+  max-width: 300px;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color:var(--primary-black);
+  border-radius: 50%;
+
+}
+.aboutLink{
+  text-decoration: underline;
+}
+
+.toTop{
+  text-decoration: underline;
+  margin: var(--md)
+}
+
+.aboutText{
+  max-width: 900px;
+  color: var(--primary-black);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  letter-spacing: 0.1em;
+  line-height: 35px;
+  margin: var(--xs) var(--xl) var(--xs) var(--xl)
+}
+.bodyText{
+  color: var(--secondary-grey)
+}
+
+.button {
+  /* display: flex;
+  justify-content: center; */
+  background-color: var(--primary-grey);
+  color: var(--primary-black);
+  font-size: 20px;
+  padding: var(--sm) var(--md);
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: var(--lg) var(--xs) 0px var(--xs);
+  max-width: 150px;
+  text-align: center;
+  align-content: center;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+.linkLogo {
+  max-width: 20px;
+  max-height: 20px;
+}
+.toggleButton {
+  border-radius: 100px;
+  color: var(--white);
+  display: inline-block;
+  line-height: 24px;
+  padding: 4px var(--md);
+  cursor: pointer;
+}
+
+.toggleButton:hover,
+.toggleButton:active,
+.toggleButton:focus {
+  background-color: var(--primary-grey);
+}
+
+.around {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: var(--sm);
+  border: 1px solid green;
+  border-radius: 5%;
+}
+.aboutContent {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .headerLine {
+    margin-top: var(--md);
+    width: 500px;
+  }
+  .buttonList {
+    max-width: 400px;
+  }
+}
+
 
 @media (max-width: 600px) {
   .grid {
