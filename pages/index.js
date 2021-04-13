@@ -44,16 +44,20 @@ export default function Home() {
         <Link href="/about">
           <a className={styles.topLink}>About</a>
         </Link>
-        <hr className={styles.headerLine} />
-        <img
-          src="/prof.png"
-          alt="Sachit Bhat Profile"
-          className={styles.logo}
-        />
-        <h1 className={styles.h1}>Sachit Bhat </h1>
-        <hr className={styles.line1} />
-        <h2 className={styles.h2}>{NAME.subText}</h2>
-        <hr className={styles.headerLine} />
+
+        <div className={styles.mainHead}>
+          <hr className={styles.headerLine} />
+          <img
+            src="/prof.png"
+            alt="Sachit Bhat Profile"
+            className={styles.logo}
+          />
+          <h1 className={styles.h1}>Sachit Bhat </h1>
+          <hr className={styles.line1} />
+          <h2 className={styles.h2}>{NAME.subText}</h2>
+          <hr className={styles.headerLine} />
+        </div>
+
         {
           <div className={styles.buttonList}>
             {data.map((item, index) => {
@@ -63,7 +67,7 @@ export default function Home() {
                 <div>
                   <Tooltip title={item?.tooltip}>
                     <div title={item.title} className={styles.button}>
-                      <a href={item.link} target="_blank">
+                      <a href={item.link} target="_blank" aria-label={item.name}> 
                         <motion.div
                           whileHover={{ scale: 1.3 }}
                           whileTap={{ scale: 0.9 }}

@@ -17,11 +17,10 @@ const about = () => {
         <div className={styles.aboutText}>
           <h1 className={styles.h1}>Hello and Welcome! </h1>
           <h3 className={(styles.h2, styles.bodyText)}>
-            Before anything else, a quick note on my name. I usually introduce
-            myself as 'Sachit, like Watch-it', so most people know me by that
-            that. My birth name is actually pronounced a bit differently: the
-            'a' is pronounced 'uh' and the 't' is pronounced 'th' (S-uh-chith).
-            It's not entirely intuitive, but{" "}
+          Before anything else, a quick note on my name. For as long as I can remember, 
+          I've introduced myself as 'Sachit, like Watch-it,' Most friends and coworkers know me as this. 
+          The intended Hindi pronunciation is slightly different: the 'a' is pronounced 'uh' and the 't' 
+          is pronounced 'th' (S - uh - chith). It's not entirely intuitive, but{" "}
             <a
               className={styles.aboutLink}
               href="https://www.youtube.com/watch?v=F__SBto-uYg&ab_channel=GreatVideos-GVCMH"
