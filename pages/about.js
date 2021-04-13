@@ -18,7 +18,7 @@ const about = () => {
           <h1 className={styles.h1}>Hello and Welcome! </h1>
           <h3 className={(styles.h2, styles.bodyText)}>
           Before anything else, a quick note on my name. For as long as I can remember, 
-          I've introduced myself as 'Sachit, like Watch-it,' Most friends and coworkers know me as this. 
+          I've introduced myself as 'Sachit, like Watch-it' - most friends and coworkers know me as this. 
           The intended Hindi pronunciation is slightly different: the 'a' is pronounced 'uh' and the 't' 
           is pronounced 'th' (S - uh - chith). It's not entirely intuitive, but{" "}
             <a
@@ -97,13 +97,13 @@ const about = () => {
               newsletter
             </a>{" "}
             for a year during quarantine, both to track my own progress and
-            incentivize curiosity and learning. More recently, I created a{" "}
+            incentivize learning and writing. More recently, I created a{" "}
             <a
               className={styles.aboutLink}
               href="https://coda.io/@sachit-bhat/sb"
               target="_blank"
             >
-              page
+              Coda doc
             </a>{" "}
             to store my thoughts on relevant articles and podcasts. I crave
             spice, and am slightly addicted to Cholula, eggs, and avocado (This
