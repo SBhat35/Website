@@ -61,12 +61,11 @@ export default function Home() {
         {
           <div className={styles.buttonList}>
             {data.map((item, index) => {
-              console.log(item);
               const Icon = icons1[item.icon];
               return (
-                <div>
+                <div key={index}>
                   <Tooltip title={item?.tooltip}>
-                    <div title={item.title} className={styles.button}>
+                    <div title={item.title} className={styles.button} >
                       <a href={item.link} target="_blank" aria-label={item.name}> 
                         <motion.div
                           whileHover={{ scale: 1.3 }}
