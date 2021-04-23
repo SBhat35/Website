@@ -18,6 +18,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
+import Image from 'next/image'
 
 export default function Home() {
   const icons1 = {
@@ -47,11 +48,15 @@ export default function Home() {
 
         <div className={styles.mainHead}>
           <hr className={styles.headerLine} />
-          <img
-            src="/prof.png"
-            alt="Sachit Bhat Profile"
-            className={styles.logo}
-          />
+          <div className = {styles.logo}>
+            <Image 
+              src="/prof.png"
+              alt="Sachit Bhat Profile"
+              width={200}
+              height={200}
+              className = {styles.logo}
+            />
+          </div>
           <h1 className={styles.h1}>Sachit Bhat </h1>
           <hr className={styles.line1} />
           <h2 className={styles.h2}>{NAME.subText}</h2>
