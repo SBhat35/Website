@@ -107,9 +107,7 @@ export const aboutText =
             >
               Coda doc
             </a>{" "}
-            to store my thoughts on relevant articles and podcasts. I crave
-            spice, and am slightly addicted to Cholula, eggs, and avocado (This
-            has been my daily lunch and weekend brunch since going remote). I
+            to store my thoughts on relevant articles and podcasts. I
             built this site using{" "}
             <a
               className={styles.aboutLink}
