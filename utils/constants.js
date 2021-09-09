@@ -116,7 +116,7 @@ export const aboutText =
             >
               Next.js
             </a>{" "}
-            and React, yet continue to experiement with new technologies and
+            and React, yet continue to experiment with new technologies and
             frameworks. If you'd like to connect, feel free to message me{" "}
             <a
               href="mailto:sachitbhat.sb@gmail.com"
