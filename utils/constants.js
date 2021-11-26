@@ -6,14 +6,6 @@ export const NAME = {
   subText: 'Idiosyncratically curious'
 }
 
-// export const ABOUT={
-//   'Title': {
-//     text: 'Hello and welcome!'
-//   },
-//   'Main': {
-//     text: 'My name is Sachit (pronounced like this). I '  
-//   }
-// }
 
 export const aboutText = 
       <div className={styles.aboutText}>
@@ -41,9 +33,16 @@ export const aboutText =
           </h3>
           <h3 className={(styles.h2, styles.bodyText)}>
             I have interests spanning industries, companies and concepts. I am a
-            sucker for B2C/B digital startups, asymmetric risk, early-stage
-            venture capital, and systems-thinking. I currently work as a
-            software engineer in{" "}
+            sucker for B2C/B software startups, asymmetric risk, early-stage
+            investing, and systems-thinking. I'm currently a deployed engineer at {" "}
+            <a
+              className={styles.aboutLink}
+              href="https://www.retool.com/"
+              target="_blank"
+            >
+              Retool
+            </a>, 
+            where I help with strategy, product, and customer success. In the past, I've worked as a software engineer in{" "}
             <a
               className={styles.aboutLink}
               href="https://www.deloittedigital.com/"
@@ -51,34 +50,23 @@ export const aboutText =
             >
               Deloitte's Digital studio
             </a>
-            , though continue to push myself to view each endeavor through the
-            eyes of a product manager (including my own life). In the past, I've
-            worked as an engineer at{" "}
+            , a venture fellow in True Venture's{" "}
+            <a
+              className={styles.aboutLink}
+              href="https://vimeo.com/295238898"
+              target="_blank"
+            >
+              Technology Fellowship Program
+            </a>
+            , and a software engineer at {" "}
             <a
               className={styles.aboutLink}
               href="https://opennetworking.org/"
               target="_blank"
             >
               ON.Lab
-            </a>
-            , a software networking consortium continuing to disrupt traditional
-            network infrastructure. More recently, I was a fellow in the{" "}
-            <a
-              className={styles.aboutLink}
-              href="https://vimeo.com/295238898"
-              target="_blank"
-            >
-              True Ventures Entrepreneurship Corps
-            </a>
-            , where I was paired with{" "}
-            <a
-              className={styles.aboutLink}
-              href="https://www.airship.com/"
-              target="_blank"
-            >
-              Airship
-            </a>{" "}
-            to help with product engineering and analytics. I graduated from{" "}
+            </a>, a software consortium disrupting the networking industry.
+             I graduated from{" "}
             <a
               className={styles.aboutLink}
               href="https://www.vanderbilt.edu/"
@@ -90,42 +78,19 @@ export const aboutText =
           </h3>
           <h3 className={(styles.h2, styles.bodyText)}>
             Outside of tech, I thoroughly enjoy reading, writing, walking, board
-            games, HIIT, and self-tracking. I challenged myself to write a{" "}
-            <a
-              className={styles.aboutLink}
-              href="http://newsletter.sachitbhat.com/"
-              target="_blank"
-            >
-              newsletter
-            </a>{" "}
-            for a year during quarantine, both to track my own progress and
-            incentivize learning and writing. More recently, I created a{" "}
-            <a
-              className={styles.aboutLink}
-              href="https://coda.io/@sachit-bhat/sb"
-              target="_blank"
-            >
-              Coda doc
-            </a>{" "}
-            to store my thoughts on relevant articles and podcasts. I
-            built this site using{" "}
-            <a
-              className={styles.aboutLink}
-              href="https://nextjs.org/Next"
-              target="_blank"
-            >
-              Next.js
-            </a>{" "}
-            and React, yet continue to experiment with new technologies and
-            frameworks. If you'd like to connect, feel free to message me{" "}
-            <a
-              href="mailto:sachitbhat.sb@gmail.com"
-              className={styles.aboutLink}
-              target="_blank"
-            >
-              here
-            </a>{" "}
-            or connect with me on{" "}
+            games, interval training, and self improvement. I live in San Francisco, so if you're 
+            in the city (or not), let's chat!
+          </h3>
+          <h3>
+          <a 
+            className={styles.aboutLink}
+            href = "mailto:sachitbhat.sb@gmail.com"
+            target="blank" 
+          >
+            Email
+        </a>
+      
+            <br></br>
             <a
               className={styles.aboutLink}
               href="https://www.linkedin.com/in/sachitbhat/"
@@ -133,7 +98,9 @@ export const aboutText =
             >
               LinkedIn
             </a>
-            . Else, hope you enjoyed reading🙂
+          </h3>
+          <h3>
+            Cheers!
           </h3>
         </div>
 
