@@ -122,9 +122,15 @@ export const Links1 = {
 export const LINKS = [ 
   {
     name: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/sachitbhat/',
+    link: 'https://medium.com/@sachitbhat-sb',
     tooltip: 'LinkedIn',
     icon: 'FaLinkedin'
+  },
+  {
+    name: 'Medium',
+    link: 'https://www.linkedin.com/in/sachitbhat/',
+    tooltip: 'Medium',
+    icon: 'FaMedium'
   },
   {
     name: 'Personal Newsletter',
@@ -133,10 +139,10 @@ export const LINKS = [
     icon: 'FaPencilAlt'
   },
   {
-    name: 'Monthly Reading',
-    link: 'https://coda.io/@sachit-bhat/sb',
-    tooltip: 'Monthly Reading',
-    icon: 'RiArticleFill',
+    name: 'Product Hunt',
+    link: 'https://www.producthunt.com/@sachit_bhat_sb',
+    tooltip: 'Product Hunt',
+    icon: 'FaProductHunt'
   },
   {
     name: 'YourStack',
@@ -169,10 +175,10 @@ export const LINKS = [
     icon: 'FaKey'
   },
   {
-    name: 'Product Hunt',
-    link: 'https://www.producthunt.com/@sachit_bhat_sb',
-    tooltip: 'Product Hunt',
-    icon: 'FaProductHunt'
-  }
+    name: 'Halloween',
+    link: 'https://vimeo.com/110594363',
+    tooltip: 'Hehe',
+    icon: 'SiHappycow'
+  },
 ];
  

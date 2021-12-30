@@ -12,6 +12,8 @@ import {
   FaMedium,
   FaPencilAlt,
 } from "react-icons/fa";
+import { SiHappycow } from "react-icons/si";
+
 import { RiArticleFill } from "react-icons/ri";
 import { BiArrowToBottom } from "react-icons/bi";
 import Tooltip from "@material-ui/core/Tooltip";
@@ -19,25 +21,30 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Image from 'next/image'
+import {isMobile} from 'react-device-detect';
+
+
 
 export default function Home() {
   const icons1 = {
     FaLinkedin: FaLinkedin,
+    FaMedium: FaMedium,
     FaPencilAlt: FaPencilAlt,
-    RiArticleFill: RiArticleFill,
+    FaProductHunt: FaProductHunt,
     BiArrowToBottom: BiArrowToBottom,
     FaCamera: FaCamera,
     FaSpotify: FaSpotify,
     FaGoodreads: FaGoodreads,
     FaKey: FaKey,
-    FaProductHunt: FaProductHunt,
+    SiHappycow: SiHappycow
   };
   const data = LINKS;
-
+console.log(isMobile)
   return (
     <div className={styles.container}>
       <Head>
-        <title>Sachit Bhat</title>
+        <title>Sachit Bhat {isMobile}</title>
+        
         <link rel="icon" href="/favSB.png" />
         <meta name="description" content="Personal Website for Sachit Bhat" />
       </Head>
