@@ -122,13 +122,13 @@ export const Links1 = {
 export const LINKS = [ 
   {
     name: 'LinkedIn',
-    link: 'https://medium.com/@sachitbhat-sb',
+    link: 'https://www.linkedin.com/in/sachitbhat/',
     tooltip: 'LinkedIn',
     icon: 'FaLinkedin'
   },
   {
     name: 'Medium',
-    link: 'https://www.linkedin.com/in/sachitbhat/',
+    link: 'https://medium.com/@sachitbhat-sb',
     tooltip: 'Medium',
     icon: 'FaMedium'
   },
